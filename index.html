@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>X.O game</title>
+</head>
+<body>
+
+    
+    <header>
+    <h1 id="X">X <span id="numofwinX" >0</span></h1>
+    <h1 id="O"><span id="numofwinO" >0</span>O </h1>
+    </header>
+
+    <div id="type">
+    <button id="multiplyer">multiplyer</button>
+    <button id="boot">boot</button>
+    </div>
+    <div id="contaner">
+    <table>
+       <tr><td><h3 id="1" onclick="click1(this.id)"></h3></td>      <td><h3 id="2" onclick="click1(this.id)"></h3></td>       <td><h3 id="3" onclick="click1(this.id)"></h3></td></tr>
+       <tr><td><h3 id="4" onclick="click1(this.id)"></h3></td>      <td><h3 id="5" onclick="click1(this.id)"></h3></td>       <td><h3 id="6" onclick="click1(this.id)"></h3></td></tr>
+       <tr><td><h3 id="7" onclick="click1(this.id)"></h3></td>      <td><h3 id="8" onclick="click1(this.id)"></h3></td>       <td><h3 id="9" onclick="click1(this.id)"></h3></td></tr>
+    </table>
+</div>
+    <div id="back-of-result" onclick="repeatgame()" >
+    <div id="result"><p id="winer"></p>
+    <button onclick="repeatgame()" id="button">repeat</button> 
+</div>
+</div>
+
+<p id="p1"></p>
+</body>
+<script src="js/logic.js"></script>
+</html>
